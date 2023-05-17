@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <>
     <Navi/>
-    <Stack style={{display:'flex', justifyContent:'center'}}>
+    <Stack className='main' style={{display:'flex', justifyContent:'center'}}>
       <div className='mb-4 h-50 car'>
       <CarouselFadeExample/>
       </div>

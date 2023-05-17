@@ -6,12 +6,12 @@ import Button from 'react-bootstrap/Button';
 
 function Navi() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="transparent" expand="lg" sticky='top' className='test'>
       <Container>
         <Navbar.Brand >Stack</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar1' />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto navbar1">
+          <Nav className=" navbar2">
             <Nav.Link href="#home">Home</Nav.Link>
             
             <NavDropdown title="Pages" id="basic-nav-dropdown">

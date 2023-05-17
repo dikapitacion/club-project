@@ -9,6 +9,7 @@
     top: 0;
     left: 0;
     min-height: 300px;
+
 }
 .navbar{
   position: absolute;
@@ -42,12 +43,20 @@
     height: 75px;
     object-fit: contain;
 }
-.navbar1{
+.navbar2{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  right: 0;
-  margin-right: 10px;
-
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+.test{
+  z-index: 100;
+}
+.main{
+  margin-top: -70px;
+}
+.me-auto {
+  margin-right: 0 !important;
 }
